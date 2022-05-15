@@ -69,7 +69,7 @@ def sete(eslither):
     etext.text = '{:1.2f}'.format(eslider.value)
 
 eslider=slider(min=0,max=2,value=1,length=200,bind=sete,right=15,pos=scene.title_anchor)
-etext=wtext(text='{:1.2f}'.format(eslider.value),pos=scene.title_anchor)
+etext=wtext(text='{:1.2f} 恢復係數'.format(eslider.value),pos=scene.title_anchor)
 
 def update():
     global t
