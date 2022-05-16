@@ -38,7 +38,7 @@ def reset(b2):
 b2 = button(text="Reset", pos=scene.title_anchor, bind=reset)
 #初始化
 def init():
-    global re,running
+    global t,re,running
     ball.pos.y=hslider.value
     ball.pos.x=-30
     ball.v.x=vslider.value

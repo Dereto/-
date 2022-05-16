@@ -46,7 +46,7 @@ def reset(b2):
 b2 = button(text="Reset", pos=scene.title_anchor, bind=reset)
 #初始化
 def init():
-    global re,running
+    global t,re,running
     t=0
     block.m=mslider.value
     block.pos.x=R+size/2

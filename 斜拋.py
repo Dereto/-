@@ -36,7 +36,7 @@ def reset(b2):
 b2 = button(text="Reset", pos=scene.title_anchor, bind=reset)
 #初始化
 def init():
-    global re,running
+    global t,re,running
     ball.pos=vec(-L/2, 0, 0)
     ball.v=vec(v0*cos(theta),v0*sin(theta),0)
     re = False
